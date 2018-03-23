@@ -31,11 +31,28 @@ namespace ConsoleApp1
             //mybool = a is int;
             //Console.WriteLine("a is int\t"+mybool);// \t跳到下一个制表符
             //Console.ReadKey();
-            Console.WriteLine("请你输入需要比较的数");
-            int num = Convert.ToInt32(Console.ReadLine());
-            string str=num>=5?"大于等于":"小于";
-            Console.WriteLine("你输入的数字{0}5",str);
-            Console.ReadLine();
+            //Console.WriteLine("请你输入需要比较的数");
+            //int num = Convert.ToInt32(Console.ReadLine());
+            //string str=num>=5?"大于等于":"小于";
+            //Console.WriteLine("你输入的数字{0}5",str);
+            //Console.ReadLine();
+
+            //判断变量a中存放数值与10的关系
+            int a = 10;
+            if (a < 10)
+            {
+                Console.WriteLine("a等于10");
+
+            }
+            if (a > 10)
+            {
+                Console.WriteLine("a大于10");
+            }
+            if (a > 10)
+            {
+                Console.WriteLine("a小于10");
+            }
+            Console.ReadKey();
         }
     }
 }
