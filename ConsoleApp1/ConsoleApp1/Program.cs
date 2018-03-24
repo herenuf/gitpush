@@ -38,19 +38,30 @@ namespace ConsoleApp1
             //Console.ReadLine();
 
             //判断变量a中存放数值与10的关系
-            int a = 10;
-            if (a < 10)
-            {
-                Console.WriteLine("a等于10");
+            //int a = 10;
+            //if (a < 10)
+            //{
+            //    Console.WriteLine("a等于10");
 
-            }
-            if (a > 10)
+            //}
+            //if (a > 10)
+            //{
+            //    Console.WriteLine("a大于10");
+            //}
+            //if (a > 10)
+            //{
+            //    Console.WriteLine("a小于10");
+            //}
+            //Console.ReadKey();
+            //Console.ReadKey();
+
+            //输出1-50到屏幕上
+            //
+            int num = 1;
+            while (num <= 50)
             {
-                Console.WriteLine("a大于10");
-            }
-            if (a > 10)
-            {
-                Console.WriteLine("a小于10");
+                Console.WriteLine(num);
+                num++;
             }
             Console.ReadKey();
         }
