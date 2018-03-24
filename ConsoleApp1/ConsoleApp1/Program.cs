@@ -57,13 +57,23 @@ namespace ConsoleApp1
 
             //输出1-50到屏幕上
             //
-            int num = 1;
-            while (num <= 50)
+            //int num = 1;
+            //while (num <= 50)
+            //{
+            //    Console.WriteLine(num);
+            //    num++;
+            //}
+            //Console.ReadKey();
+
+            //输出1-50到屏幕上
+            int num = 0;
+            do
             {
-                Console.WriteLine(num);
                 num++;
-            }
-            Console.ReadKey();
+                Console.WriteLine(num);
+
+            } while (num < 50);
+            Console.ReadLine();
         }
     }
 }
