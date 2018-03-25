@@ -74,7 +74,11 @@ namespace ConsoleApp1
 
             //} while (num < 50);
             //Console.ReadLine();
-
+            //表达式中的类型传换
+            //当有不同种类的混合运算时
+            //int long float double
+            //另外，注意整型提升
+            //所有的byte，short，char等转为int
         }
     }
 }
